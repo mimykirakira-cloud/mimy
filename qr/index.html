@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mimy QR</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#FFFFFF">
+<!-- ホーム画面に追加したとき、ブラウザの枠なしで開く -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mimy QR">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+  :root { color-scheme: light; }
+  html, body { height: 100%; margin: 0; background: #FFFFFF; }
+  body {
+    display: grid; place-items: center;
+    padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+    box-sizing: border-box;
+    -webkit-user-select: none; user-select: none;
+  }
+  img { display: block; width: min(92vw, 78vh * 1200 / 1408, 560px); height: auto; }
+</style>
+</head>
+<body>
+  <img src="qr.png" width="1200" height="1408" alt="齊藤三千子（Mimy）のプロフィールページを開くQRコード">
+</body>
+</html>
